@@ -1,15 +1,1 @@
-Created VPC & Subnet
-Created custom Route Table
-Added Subnet Association with Route Table
-Configured Default/Main Route Table
-Created Security Group
-Configured Default Security Group
-Created EC2 Instance (Fetch AMI, Create ssh key-pair and download .pem file and restrict permission)
-SSH into EC2 instance
-Configured ssh key pair in Terraform config file
-Created EC2 Instance-Fetch AMI-Create ssh key-pair and download .pem file-restrict permission 
-SSH into EC2 instance
-Automated ssh key-pair - configured ssh key pair in Terraform config file
-Configured Terraform to install Docker and run nginx image
-Extract shell commands to own shell script
-Accessed nginx through Browser.
+In this project, I have set up a Virtual Private Cloud (VPC) and a subnet within it. Additionally, I have created a custom route table and associated the subnet with it. To enhance security, I configured the default/main route table. Moreover, I created a security group and configured the default security group settings. To deploy an EC2 instance, I fetched the appropriate Amazon Machine Image (AMI), generated an SSH key pair, downloaded the corresponding .pem file, and restricted its permissions. Using the SSH key, I successfully connected to the EC2 instance. To streamline the process, I automated the SSH key pair configuration and integrated it into the Terraform configuration file. Furthermore, I utilized Terraform to install Docker and run an nginx image on the EC2 instance. To simplify the execution of multiple shell commands, I extracted them into a dedicated shell script. Finally, I accessed the nginx web server through a web browser, ensuring the successful deployment of the infrastructure.
